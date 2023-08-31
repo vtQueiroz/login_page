@@ -1,0 +1,100 @@
+.container {
+    display: block;
+    text-align: center;
+    background-color: #f3ffeb;
+    width: 320px;
+    height: auto;
+    padding: 32px;
+    margin: 0 auto;
+    border-radius: 8px;
+    border: 1px solid #203a0f;
+}
+
+.form-container {
+    display: block;
+    flex-direction: column;
+    
+
+}
+
+h1, h4 {
+    color: #203a0f;
+    font-family: sans-serif;
+    line-height: 24px;
+}
+
+.userdata {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 4px;
+    color: #203a0f;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.username {
+    display: flex;
+    gap: 7px;
+    margin-left: -6px;
+    justify-content: center;
+   
+}
+
+.input2 {
+    width: 120px;
+    border: 1px solid #215200;
+    border-radius: 5px;
+    padding: 10px 16px;
+    margin-top: 5px;
+}
+
+.input {
+    border: 1px solid #215200;
+    border-radius: 5px;
+    padding: 10px;
+    width: 300px;
+    margin-top: 5px;
+}
+
+.gender {
+    display: inline-flex;
+    gap: 8px;
+    margin-right: -2px;
+    justify-content: left;
+}
+
+.gender1, .gender2, .gender3 {
+    border: 1px solid #203a0f;
+    border-radius: 5px;
+    padding: 8px;
+    width: 90px;
+}
+
+button {
+    width: 320px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #203a0f;
+    color: #fff;
+    margin-bottom: 8px;
+    
+}
+
+.button .cancel {
+    background-color: rgb(228, 230, 235);
+    font-weight: bold;
+    color: rgb(75, 79, 86);
+    text-decoration: none;
+}
+
+.button .signup {
+    text-decoration: none;
+    color: #fff;
+}
+
+.signup2 {
+    text-decoration: none;
+    color: #fff;
+}

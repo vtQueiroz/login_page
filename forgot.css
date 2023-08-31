@@ -1,0 +1,66 @@
+.container {
+    display: block;
+    text-align: center;
+    background-color: #f3ffeb;
+    width: 320px;
+    height: auto;
+    padding: 8px 32px 32px 32px;
+    margin: 0 auto;
+    border-radius: 8px;
+    border: 1px solid #203a0f;
+}
+
+h1, h4 {
+    color: #203a0f;
+    font-family: sans-serif;
+    line-height: 24px;
+}
+
+.userdata {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 16px;
+    color: #203a0f;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding-bottom: 16px;
+}
+
+.input {
+    border: 1px solid #215200;
+    border-radius: 5px;
+    padding: 10px;
+    width: 300px;
+    margin-top: 5px;
+}
+
+
+button {
+    width: 80px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #203a0f;
+    color: #fff;
+    
+}
+
+.button {
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+    text-decoration: none;
+}
+
+.button .cancel {
+    background-color: rgb(228, 230, 235);
+    font-weight: bold;
+    color: rgb(75, 79, 86);
+    text-decoration: none;
+}
+
+.button .recover  {
+    text-decoration: none;
+    color: #fff;
+}
